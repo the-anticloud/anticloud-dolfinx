@@ -1,0 +1,172 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:48384b4c-8180-575c-bd34-95d343808cd6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T07:35:46Z",
+    "component": {
+      "type": "application",
+      "name": "DOLFINX",
+      "version": "57583cd3be78",
+      "bom-ref": "pkg:generic/anticloud/DOLFINX@57583cd3be78",
+      "purl": "pkg:generic/anticloud/DOLFINX@57583cd3be78",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "57583cd3be7887aae2d91571cf74fa009f3572ad"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "anaconda",
+      "version": "unspecified",
+      "purl": "pkg:generic/anaconda",
+      "bom-ref": "conda/anaconda@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "petsc",
+      "version": "3.24.0",
+      "purl": "pkg:generic/petsc@3.24.0",
+      "bom-ref": "conda/petsc@3.24.0"
+    },
+    {
+      "type": "library",
+      "name": "petsc4py",
+      "version": "3.24.0",
+      "purl": "pkg:generic/petsc4py@3.24.0",
+      "bom-ref": "conda/petsc4py@3.24.0"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.10.6",
+      "purl": "pkg:generic/matplotlib@3.10.6",
+      "bom-ref": "conda/matplotlib@3.10.6"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib-base",
+      "version": "3.10.6",
+      "purl": "pkg:generic/matplotlib-base@3.10.6",
+      "bom-ref": "conda/matplotlib-base@3.10.6"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib-inline",
+      "version": "0.1.7",
+      "purl": "pkg:generic/matplotlib-inline@0.1.7",
+      "bom-ref": "conda/matplotlib-inline@0.1.7"
+    },
+    {
+      "type": "library",
+      "name": "metis",
+      "version": "5.1.0",
+      "purl": "pkg:generic/metis@5.1.0",
+      "bom-ref": "conda/metis@5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "mpi",
+      "version": "1.0",
+      "purl": "pkg:generic/mpi@1.0",
+      "bom-ref": "conda/mpi@1.0"
+    },
+    {
+      "type": "library",
+      "name": "mpi4py",
+      "version": "4.1.0",
+      "purl": "pkg:generic/mpi4py@4.1.0",
+      "bom-ref": "conda/mpi4py@4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "1.16.2",
+      "purl": "pkg:generic/scipy@1.16.2",
+      "bom-ref": "conda/scipy@1.16.2"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "meshio",
+      "version": "5.3.5",
+      "purl": "pkg:generic/meshio@5.3.5",
+      "bom-ref": "conda/meshio@5.3.5"
+    },
+    {
+      "type": "library",
+      "name": "pymetis",
+      "version": "2025.2.1",
+      "purl": "pkg:generic/pymetis@2025.2.1",
+      "bom-ref": "conda/pymetis@2025.2.1"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "8.4.2",
+      "purl": "pkg:generic/pytest@8.4.2",
+      "bom-ref": "conda/pytest@8.4.2"
+    },
+    {
+      "type": "library",
+      "name": "pytest-mpi",
+      "version": "0.6",
+      "purl": "pkg:generic/pytest-mpi@0.6",
+      "bom-ref": "conda/pytest-mpi@0.6"
+    },
+    {
+      "type": "library",
+      "name": "jax",
+      "version": "0.7.2",
+      "purl": "pkg:generic/jax@0.7.2",
+      "bom-ref": "conda/jax@0.7.2"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    }
+  ]
+}
