@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "DOLFINX",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ENGINEERING_CONSTRUCTION\\DOLFINX\\UPSTREAM_CLONE",
   "git": {
-   "head": "57583cd3be7887aae2d91571cf74fa009f3572ad",
-   "url": "https://github.com/kinnala/scikit-fem",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/FEniCS/dolfinx",
+   "head": "56daf3fdabc692535450ff2ccaad045b7acf81eb",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/kinnala/scikit-fem"
   }
  },
  "metrics": {
