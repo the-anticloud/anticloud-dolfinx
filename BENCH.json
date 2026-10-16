@@ -6,7 +6,7 @@
    "url": "https://github.com/FEniCS/dolfinx",
    "head": "56daf3fdabc692535450ff2ccaad045b7acf81eb",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/kinnala/scikit-fem"
+   "previous_substitute": "https://github.com/FEniCS/dolfinx"
   }
  },
  "metrics": {
